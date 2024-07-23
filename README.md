@@ -57,6 +57,59 @@ Twilio لإرسال الإخطارات عبر الرسائل النصية (SMS).
 
 
 
+-- --
+
+Software project summary: Monitor cryptocurrency prices and alert users
 
 
++ Project name: Digital currency price monitor
+
++ Purpose of the project:
+
+
+A project that aims to monitor the prices of digital currencies (such as Bitcoin, Ethereum, etc.) and alert users when significant price changes occur or when prices reach a pre-defined target.
+
++ Technology used:
+
+Programming language: Visual Basic .NET
+
+
++ Libraries:
+
+
+System.Net.Http to access the pricing API.
+Newtonsoft.Json to parse JSON data.
+System.Net.Mail to send notifications via email.
+Twilio to send notifications via text message (SMS).
+
+
++ Main advantages:
+
+Fetch data: Fetch cryptocurrency prices from CoinGecko API.
+Periodic update: Prices are updated periodically based on a time period specified by the user.
+Change Notifications: Alert users when significant price changes occur (such as a certain percentage increase or decrease).
+Target Notifications: Alert users when prices reach pre-set targets.
+Multiple Notifications: Send notifications via email and text messages (SMS).
+Flexible user interface: A user interface that enables the user to customize the currencies to be monitored and price targets.
+
+
++ Challenges faced:
+
+Error handling: Handle possible errors while fetching data from the Internet or sending notifications, and record these errors in a log file.
+Periodic update: Ensure smooth periodic update of prices without affecting the application performance.
+
+
++ How to use the project:
+
+Application setting: Run the application and set the periodic update period by controlling the user interface.
+Select currencies: Choose currencies to monitor and enter price targets if required.
+Activate notifications: Define notification methods (email and text messages) and activate them.
+Start updating: Click on the Start Update button to start the process of monitoring prices and updating them periodically.
+
+
++Additional notes:
+
+Users must provide Twilio authentication data to send text messages.
+Users must set up a correct SMTP server to send email.
+This summary comprehensively explains the purpose of the project, the advantages it offers, the technology used, the challenges overcome, and how to use it effectively.
 
