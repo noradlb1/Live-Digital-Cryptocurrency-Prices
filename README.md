@@ -1,6 +1,10 @@
 # Live-Digital-Cryptocurrency-Prices
 Live Digital Cryptocurrency Prices
 
+![](banner.png)
+
+-- --
+
 ملخص المشروع البرمجي: مراقبة أسعار العملات الرقمية وتنبيه المستخدمين
 
 
