@@ -10,7 +10,7 @@ Live Digital Cryptocurrency Prices
 -التكنولوجيا المستخدمة:
 
 لغة البرمجة: Visual Basic .NET
--مكتبات:
+--مكتبات:
 System.Net.Http للوصول إلى واجهة برمجة التطبيقات (API) الخاصة بالأسعار.
 Newtonsoft.Json لتحليل بيانات JSON.
 System.Net.Mail لإرسال الإخطارات عبر البريد الإلكتروني.
