@@ -1,7 +1,7 @@
 # Live-Digital-Cryptocurrency-Prices
 Live Digital Cryptocurrency Prices
 
-![](banner.png)
+![](Capture.PNG)
 
 -- --
 
